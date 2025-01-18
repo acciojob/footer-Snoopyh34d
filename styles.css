@@ -38,6 +38,7 @@ footer {
   font-size: 20px;
   color: white;
   text-decoration: none;
+	display:flex;
 }
 
 .media-icons a:hover {
