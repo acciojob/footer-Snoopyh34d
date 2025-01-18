@@ -3,10 +3,7 @@
     margin: 0;
     font-family: 'Roboto', Arial, sans-serif;
 }
-footer{
-    background-color: black;
-    color: white;
-}
+
 img{
     width: 50px;
 }
@@ -17,48 +14,34 @@ a{
 }
 h4{
     text-decoration: underline;
+    padding-left: 20px;
 }
 .footer-bootom{
     background-color:darkslategray;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .company-socials{
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 40px;
 }
-
-.links{
-    
-}/* your code here */
-*{
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 0;
-    margin: 0;
-    font-family: 'Roboto', Arial, sans-serif;
 }
-footer{
-    background-color: black;
-    color: white;
+ul{
+    list-style: none;
+    padding: 10px 20px;
 }
-img{
-    width: 50px;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-h4{
-    text-decoration: underline;
-}
-.footer-bootom{
-    background-color:darkslategray;
-}
-
-.company-socials{
-    display: flex;
-    justify-content: space-between;
-}
-
-.links{
-    
+li{
+    padding-bottom: 10px;
 }
