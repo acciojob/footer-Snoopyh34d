@@ -32,6 +32,9 @@ footer {
   font-size: 24px;
   font-weight: bold;
 }
+div.media-icons{
+	display:flex;
+}
 
 .media-icons a {
   margin: 0 10px;
